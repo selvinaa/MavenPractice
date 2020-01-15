@@ -1,0 +1,19 @@
+<suite name="Test Suite">
+    <test name="Test 1" enabled="true">
+        <classes>
+            <class name="io.techleadacademy.testNG_Jan11.TestTags">//here we can add any class for a test
+                <methods>
+                    <exclude name="logInPerformanceTest1"/>
+                </methods>
+            </class>
+            <class name="io.techleadacademy.testNG_Jan11.Math" enabled="false"/>// it wont run with enable, we have to disable
+            <class name="io.techleadacademy.Orange2LongWay" enabled="false"/>// CALLING BY CLASS ONLY
+        </classes>
+    </test>
+    <test name="Smoke Test" enabled="false">// enable is like ignoring or desability, so i wont run
+        <packages>
+            <!--package name="io.techleadacademy.testNG_Jan11"/-->// CALLING BY PACKAGE SO INCLUDES EVERYTHING
+            <package name="io.techleadacademy.Jan12"/>
+        </packages>
+    </test>
+</suite>
