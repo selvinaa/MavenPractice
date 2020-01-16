@@ -2,7 +2,7 @@ package io.techleadacademy.Jan12;
 
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import io.techleadacademy.ReusableMethods;
+import io.techleadacademy.zz_TestNGExamples.ReusableMethods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -81,11 +81,7 @@ public class TravelPhp {
         String  gettingDate = driver.findElement(By.xpath("//span[@class='h4']")).getText();
         System.out.println(gettingDate);
         Assert.assertEquals(day,gettingDate);
-//        String expected = driver.findElement(By.name("firstname")).getText();
-//        String actual = driver.findElement(By.xpath("")).getText();
-//         Assert.assertEquals(actual, expected);
-
-
+       // String str = driver.getTitle();
 
 
 //        Task Jan - 12
@@ -104,11 +100,7 @@ public class TravelPhp {
 //        Its says "Hi, firstName LastName"
 //        Today's date
 
-
-
     }
-
-
 
 
 }

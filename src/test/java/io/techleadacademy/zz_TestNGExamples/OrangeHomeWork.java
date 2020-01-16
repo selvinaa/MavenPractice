@@ -1,4 +1,4 @@
-package io.techleadacademy;
+package io.techleadacademy.zz_TestNGExamples;
 
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import io.github.bonigarcia.wdm.WebDriverManager;

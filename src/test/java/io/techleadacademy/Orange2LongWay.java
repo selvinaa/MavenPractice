@@ -1,7 +1,7 @@
 package io.techleadacademy;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import io.techleadacademy.ReusableMethods;
+import io.techleadacademy.zz_TestNGExamples.ReusableMethods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

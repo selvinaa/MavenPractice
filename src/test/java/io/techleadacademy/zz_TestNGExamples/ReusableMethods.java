@@ -1,4 +1,4 @@
-package io.techleadacademy;
+package io.techleadacademy.zz_TestNGExamples;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

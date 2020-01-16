@@ -1,6 +1,6 @@
 package io.techleadacademy.testNG_Jan11;
 
-import io.techleadacademy.ReusableMethods;
+import io.techleadacademy.zz_TestNGExamples.ReusableMethods;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.testng.Assert;

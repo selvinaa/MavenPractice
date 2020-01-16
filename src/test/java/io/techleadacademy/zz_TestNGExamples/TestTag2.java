@@ -1,7 +1,6 @@
-package io.techleadacademy;
+package io.techleadacademy.zz_TestNGExamples;
 
 import org.openqa.selenium.ElementNotInteractableException;
-import org.openqa.selenium.ElementNotVisibleException;
 import org.testng.Assert;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
